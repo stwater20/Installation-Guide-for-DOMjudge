@@ -51,7 +51,8 @@ sudo docker exec -it domserver_container_name /opt/domjudge/domserver/webapp/bin
 then login the dashboard, click user
 change "judgeaemons" password to ```9NQLNMcLCr8zu0gB```
 
-![image](https://user-images.githubusercontent.com/50062014/199960685-2db1e22b-6e95-4afb-88e0-7e668f1c15e8.png)
+![image](https://user-images.githubusercontent.com/50062014/199965217-f47463a5-aa03-4bf8-acbc-eaec38260889.png)
+
 
 如果 Judgehosts 有多的　Judgehosts　那就是成功了，不然用　docker container logs 也可以看出來
 
@@ -86,3 +87,12 @@ docker-compose.yml 裡面有幾個要注意的
 ```
 - /home/iming/backup:/var/lib/mysql
 ```
+每個 dj-judgehost 的密碼可以改 但每個都要一樣
+但記得改的跟我不一樣的話 user 那邊的密碼也要改的跟你設的一樣
+```
+- JUDGEDAEMON_PASSWORD=9NQLNMcLCr8zu0gB
+```
+
+本文同步發至 https://sectools.tw/domjudge/
+
+
