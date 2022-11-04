@@ -40,4 +40,9 @@ then type
 sudo docker exec -it domserver_container_name /opt/domjudge/domserver/webapp/bin/console domjudge:reset-user-password admin
 ```
 
+then login the dashboard, click user
+change 
+
+![image](https://user-images.githubusercontent.com/50062014/199960685-2db1e22b-6e95-4afb-88e0-7e668f1c15e8.png)
+
 
