@@ -1,6 +1,14 @@
 # DOMjudge-docker-compose
 
-DOMjudge 安裝流程，踩太多坑...
+DOMjudge 安裝流程
+
+DOMjudge是一個競賽評量程式，
+感覺拿來當CPE或程式類技藝競賽的模擬平台都不錯
+
+## 安裝環境
+
+Debian
+
 
 ## 安裝流程
 
@@ -56,5 +64,9 @@ change "judgeaemons" password to ```9NQLNMcLCr8zu0gB```
 
 ![image](https://user-images.githubusercontent.com/50062014/199961181-061f0dd3-b430-49fe-b1e9-22c668091110.png)
 
+最後上傳題目，開個使用者測試一下
 
-## Note
+![image](https://user-images.githubusercontent.com/50062014/199961702-cc908315-803d-409f-9238-9aac9da00806.png)
+
+
+Done!
