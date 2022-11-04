@@ -44,7 +44,7 @@ services:
                         - CONTAINER_TIMEZONE=Asia/Taipei
                         - DAEMON_ID=0
                         #DOMSERVER_BASEURL可以指定domserver的IP，從而在另一個終端開judgehost
-                        - DOMSERVER_BASEURL=http://210.70.242.53/
+                        - DOMSERVER_BASEURL=http://127.0.0.1/
                 links:
                         - dj-domserver:domserver
         dj-judgehost_1:
@@ -57,7 +57,7 @@ services:
                         - CONTAINER_TIMEZONE=Asia/Taipei
                         - DAEMON_ID=1
                         - JUDGEDAEMON_PASSWORD=9NQLNMcLCr8zu0gB
-                        - DOMSERVER_BASEURL=http://210.70.242.53/
+                        - DOMSERVER_BASEURL=http://127.0.0.1/
                 links:
                         - dj-domserver:domserver
         dj-judgehost_2:
@@ -70,7 +70,7 @@ services:
                         - JUDGEDAEMON_PASSWORD=9NQLNMcLCr8zu0gB
                         - CONTAINER_TIMEZONE=Asia/Taipei
                         - DAEMON_ID=2
-                        - DOMSERVER_BASEURL=http://210.70.242.53/
+                        - DOMSERVER_BASEURL=http://127.0.0.1/
                 links:
                         - dj-domserver:domserver
         dj-judgehost_3:
@@ -83,7 +83,7 @@ services:
                         - CONTAINER_TIMEZONE=Asia/Taipei
                         - DAEMON_ID=3
                         - JUDGEDAEMON_PASSWORD=9NQLNMcLCr8zu0gB
-                        - DOMSERVER_BASEURL=http://210.70.242.53/
+                        - DOMSERVER_BASEURL=http://127.0.0.1/
                 links:
                         - dj-domserver:domserver
         dj-judgehost_4:
@@ -96,7 +96,7 @@ services:
                         - JUDGEDAEMON_PASSWORD=9NQLNMcLCr8zu0gB
                         - CONTAINER_TIMEZONE=Asia/Taipei
                         - DAEMON_ID=4
-                        - DOMSERVER_BASEURL=http://210.70.242.53/
+                        - DOMSERVER_BASEURL=http://127.0.0.1/
                 links:
                         - dj-domserver:domserver
         dj-judgehost_5:
@@ -109,6 +109,6 @@ services:
                         - CONTAINER_TIMEZONE=Asia/Taipei
                         - DAEMON_ID=5
                         - JUDGEDAEMON_PASSWORD=9NQLNMcLCr8zu0gB
-                        - DOMSERVER_BASEURL=http://210.70.242.53/
+                        - DOMSERVER_BASEURL=http://127.0.0.1/
                 links:
                         - dj-domserver:domserver
