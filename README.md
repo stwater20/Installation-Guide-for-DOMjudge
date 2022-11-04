@@ -45,5 +45,16 @@ change "judgeaemons" password to ```9NQLNMcLCr8zu0gB```
 
 ![image](https://user-images.githubusercontent.com/50062014/199960685-2db1e22b-6e95-4afb-88e0-7e668f1c15e8.png)
 
+如果 Judgehosts 有多的　Judgehosts　那就是成功了，不然用　docker container logs 也可以看出來
+
+這邊可能有幾個問題
+1. grub 設定沒設
+2. 401 驗證過不去
+3. url 打不到 server
+
+這照著我上面弄就可以解決了
+
+![image](https://user-images.githubusercontent.com/50062014/199961181-061f0dd3-b430-49fe-b1e9-22c668091110.png)
+
 
 ## Note
