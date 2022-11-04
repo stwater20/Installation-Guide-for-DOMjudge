@@ -41,8 +41,9 @@ sudo docker exec -it domserver_container_name /opt/domjudge/domserver/webapp/bin
 ```
 
 then login the dashboard, click user
-change "judgeaemons" password to ``` ```
+change "judgeaemons" password to ```9NQLNMcLCr8zu0gB```
 
 ![image](https://user-images.githubusercontent.com/50062014/199960685-2db1e22b-6e95-4afb-88e0-7e668f1c15e8.png)
 
 
+## Note
