@@ -5,7 +5,7 @@ services:
                 image: mariadb
                 volumes:
                         #「:」前面的部分是備份資料庫的路徑，可以避免重新部署後資料消失
-                        - /home/iming/backup:/var/lib/mysql
+                        - /home/$USER/backup:/var/lib/mysql
                 environment:
                         - MYSQL_ROOT_PASSWORD=rootpw
                         - MYSQL_DATABASE=domjudge
