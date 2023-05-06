@@ -93,6 +93,20 @@ docker-compose.yml 裡面有幾個要注意的
 - JUDGEDAEMON_PASSWORD=9NQLNMcLCr8zu0gB
 ```
 
+如果 log 顯示
+<img width="695" alt="image" src="https://user-images.githubusercontent.com/50062014/236602349-a003979f-8490-4a66-99a0-9ced2d8c4f5b.png">
+
+那你要在
+```
+docker exec -it domserver cat /opt/domjudge/domserver/etc/restapi.secret
+```
+取得新的 restAPI 密碼, 替換掉 docker-compose.yml 中的 JUDGEDAEMON_PASSWORD
+再啟動
+```
+docker-compose up -d
+```
+
+
 本文同步發至 https://sectools.tw/domjudge/
 
 
