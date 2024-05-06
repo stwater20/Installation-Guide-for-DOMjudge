@@ -43,9 +43,9 @@ DOMjudge is a contest adjudication program that works well as a simulation platf
 
 7. Log in to the dashboard, click on user, and change the password for "judgeaemons" to `9NQLNMcLCr8zu0gB`.
    
-   ```
+
    ![Dashboard](https://user-images.githubusercontent.com/50062014/199965217-f47463a5-aa03-4bf8-acbc-eaec38260889.png)
-   ```
+
 
 8. Check for additional Judgehosts; use `docker container logs` if necessary.
 
