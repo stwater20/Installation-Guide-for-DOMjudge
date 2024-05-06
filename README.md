@@ -1,5 +1,6 @@
 # DOMjudge-docker-compose
 
+ ![sample-2](/sample-2.jpg)
  ![sample-1](/sample-1.jpg)
 
 ## Installation Guide for DOMjudge
