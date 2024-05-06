@@ -1,5 +1,7 @@
 # DOMjudge-docker-compose
 
+ ![sample-1](/sample-1.jpg)
+
 ## Installation Guide for DOMjudge
 
 DOMjudge is a contest adjudication program that works well as a simulation platform for CPE or programming competitions.
